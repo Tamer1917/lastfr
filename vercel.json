@@ -1,14 +1,1 @@
-{
-  "builds": [
-    {
-      "src": "api/update-score.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/update-score",
-      "dest": "/api/update-score.py"
-    }
-  ]
-}
+
